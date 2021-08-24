@@ -1,29 +1,23 @@
 
 @font-face {
-    font-family: "SF-Pro-Display";
-    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf") format("opentype");
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
     font-weight: 400;
     }
 
     @font-face {
-    font-family: "SF-Pro-Display";
-    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf") format("opentype");
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-Medium.ttf") format("opentype");
     font-weight: 500;
     }
 
     @font-face {
-    font-family: "SF-Pro-Display";
-    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf") format("opentype");
-    font-weight: 600;
-    }
-
-    @font-face {
-    font-family: "SF-Pro-Display";
-    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf") format("opentype");
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-Bold.ttf") format("opentype");
     font-weight: 700;
 }
 body {
-    font-family: "SF-Pro-Display";
+    font-family: "Roboto";
 }
 iframe {
     height: 20px;
