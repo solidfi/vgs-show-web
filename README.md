@@ -21,3 +21,5 @@ To Run the app run `npx serve`. then open `http://localhost:5000` in browser.
 | VGS-Vault-ID        | vgs vault id |
 | card-Id             | solid card id |
 | show-token          | Show token you can get it from api |
+
+Note: The VGS Org and vault ID's required for implementing the sample code can be requested via a Solid help desk ticket.
