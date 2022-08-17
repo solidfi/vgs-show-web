@@ -13,6 +13,8 @@ The purpose of this app is to show how to use the VGS Show JavaScript SDK. For c
 ## Run the app
 To Run the app run `npx serve`. then open `http://localhost:5000` in browser.
 
+or run the html files under a local webserver(wamp, lamp, xampp...), openning the file directly in browser will not work due to CORS.
+
 
 ## Parameters
 | Parameters          | Description   |
