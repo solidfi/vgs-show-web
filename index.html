@@ -70,7 +70,7 @@
                     name: 'cardNoIframe',
                     method: 'GET',
                     headers,
-                    path: '/v1/card/' + cardId + '/show',
+                    path: '/v2/card/' + cardId + '/show',
                     jsonPathSelector: 'cardNumber',
                     serializers: [show.SERIALIZERS.replace('(\\d{4})(\\d{4})(\\d{4})(\\d{4})', '$1 $2 $3 $4')],
                 });
@@ -95,7 +95,7 @@
                     name: 'expiryMonthIframe',
                     method: 'GET',
                     headers,
-                    path: '/v1/card/' + cardId + '/show',
+                    path: '/v2/card/' + cardId + '/show',
                     jsonPathSelector: 'expiryMonth'
                 });
                 expiryMonthIframe.render('#exp-month', { color: 'white', fontSize: '16px', display: 'block', height: '16px', overflow: 'hidden' });
